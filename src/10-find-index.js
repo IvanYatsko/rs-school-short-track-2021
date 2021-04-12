@@ -14,7 +14,8 @@
 function findIndex(array, value) {
   let start = 0;
   let finish = array.length;
-  while (true) {
+  const result = 0;
+  while (!result) {
     const middle = Math.floor((start + finish) / 2);
     if (value > array[middle]) {
       start = middle;
@@ -24,6 +25,7 @@ function findIndex(array, value) {
       return middle;
     }
   }
+  return result;
 }
 
 module.exports = findIndex;
