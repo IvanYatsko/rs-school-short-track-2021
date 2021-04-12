@@ -11,7 +11,7 @@
  *
  */
 class Stack {
-  constructor(){
+  constructor() {
     this.arr = [];
   }
 
